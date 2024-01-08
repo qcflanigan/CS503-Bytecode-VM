@@ -15,7 +15,9 @@
 
     -The command "make clean" can also reset the built files in the buildFiles directory and remove the most recent executable. "make" will then generate a new version of all of the necessary files. 
 
-    -Execute the command "./bytecodeVM.exe <lox_file_name>" to interpret an entire file, or just "./bytecodeVM.exe" to generate a REPL prompt which will interpret Lox code one line at a time. 
+    -Execute the command "./bytecodeVM.exe <lox_file_name>" to interpret an entire file, or just "./bytecodeVM.exe" to generate a REPL prompt which will interpret Lox code one line at a time.
+
+    -When cloning and executing, ensure every source/.c file is in a source-code folder, every header/.h file is in a header-file folder. and you may need a third folder named "bin". Check with the first few variables in the Makefile to check which hard-coded folder names are included/needed. 
 
 ## Testing:
 
